@@ -95,6 +95,12 @@ The frontend usually runs on:
 http://localhost:5173
 ```
 
+## Notes
+
+- The app is intentionally conservative in its analysis and avoids medical, health, or sensitive claims.
+- Product verdicts are based on limited signals such as URL text, body profile, and stated preferences, so the output is meant to be assistive rather than absolute.
+- The backend is designed to return valid JSON so the frontend can reliably render structured styling feedback.
+
 ## License
 
-This project is for educational and portfolio use unless stated otherwise.
+This project is for educational and portfolio use unless otherwise specified.
